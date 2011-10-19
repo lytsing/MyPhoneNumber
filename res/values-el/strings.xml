@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="application_name">Ο αριθμός τηλεφώνου μου</string>
+    <string name="my_phone_number_activity_title">Ο αριθμός τηλεφώνου μου</string>
+    <string name="my_phone_number_status_title">Ο αριθμός τηλεφώνου μου</string>
+    <string name="my_phone_number_settings_title">Ρυθμίσεις</string>
+    <string name="my_phone_number_settings_summary">Ορίστε τον αριθμό τηλεφώνου για τη συγκεκριμένη συσκευή</string>
+    <string name="unknown">Άγνωστο</string>
+    <string name="no_sim_error_message">SIM card no available</string>
+    <string name="widget_text">Φόρτωση\u2026</string>
+    <string name="share_number">Share your number</string>
+</resources>

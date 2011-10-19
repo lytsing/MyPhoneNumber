@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        package="org.lytsing.myphonenumber"
+        android:sharedUserId="android.uid.phone"
+        android:versionCode="3"
+        android:versionName="1.2">
+
+    <application android:icon="@drawable/icon"
+        android:label="@string/application_name">
+
+        <activity android:name=".MyPhoneNumber"
+                android:process="com.android.phone"
+                android:label="@string/my_phone_number_activity_title">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Broadcast Receiver that will process AppWidget updates -->
+        <receiver android:name=".MyPhoneNumberWidget" android:label="@string/application_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider"
+            android:resource="@xml/number_widget_provider" />
+        </receiver>
+        
+        <service android:name=".MyPhoneNumberWidget$UpdateService"/>
+
+    </application>
+    <uses-sdk android:minSdkVersion="8" />
+
+</manifest>
+

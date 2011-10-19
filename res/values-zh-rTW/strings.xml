@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>   
+    <string name="application_name">本機號碼</string>
+    <string name="my_phone_number_activity_title">本機號碼</string>
+    <string name="my_phone_number_status_title">本機號碼</string>
+    <string name="my_phone_number_settings_title">我的手機號碼</string>
+    <string name="my_phone_number_settings_summary">設定我的本機號碼</string>
+    <string name="unknown">不明</string>
+    <string name="widget_text">載入中\u2026</string>
+    <string name="no_sim_error_message">SIM 卡不存在</string>
+</resources>
+

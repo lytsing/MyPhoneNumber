@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/my_phone_number_activity_title">
+
+    <Preference android:key="my_phone_number_status" 
+        style="?android:attr/preferenceInformationStyle" 
+        android:title="@string/my_phone_number_status_title"
+        android:summary="@string/device_info_not_available"
+        android:persistent="false" />
+
+	<EditTextPreference
+	    android:key="edittext_preference"
+		android:title="@string/my_phone_number_settings_title"
+		android:summary="@string/my_phone_number_settings_summary"
+		android:dialogTitle="@string/my_phone_number_settings_summary"
+		android:inputType="phone" />
+
+</PreferenceScreen>
+

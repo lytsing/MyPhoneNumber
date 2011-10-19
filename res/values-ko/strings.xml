@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="application_name">내 전화 번호</string>
+    <string name="my_phone_number_activity_title">내 전화 번호</string>
+    <string name="my_phone_number_status_title">내 전화 번호</string>
+    <string name="my_phone_number_settings_title">설정</string>
+    <string name="my_phone_number_settings_summary">이 장치에 설정된 전화 번호</string>
+    <string name="unknown">알 수 없음</string>
+    <string name="no_sim_error_message">SIM card no available</string>
+    <string name="widget_text">로드 중\u2026</string>
+    <string name="share_number">Share your number</string>
+</resources>

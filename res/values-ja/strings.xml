@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="application_name">私の電話番号</string>
+    <string name="my_phone_number_activity_title">私の電話番号</string>
+    <string name="my_phone_number_status_title">私の電話番号</string>
+    <string name="my_phone_number_settings_title">設定</string>
+    <string name="my_phone_number_settings_summary">このデバイスの電話番号を設定</string>
+    <string name="unknown">不明</string>
+    <string name="no_sim_error_message">SIM card no available</string>
+    <string name="widget_text">読み込み中\u2026</string>
+    <string name="share_number">Share your number</string>
+</resources>

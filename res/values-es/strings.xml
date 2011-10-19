@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="application_name">Mi número de teléfono</string>
+    <string name="my_phone_number_activity_title">Mi número de teléfono</string>
+    <string name="my_phone_number_status_title">Mi número de teléfono</string>
+    <string name="my_phone_number_settings_title">Ajustes</string>
+    <string name="my_phone_number_settings_summary">Establecer el número de teléfono para este dispositivo</string>
+    <string name="unknown">Desconocido</string>
+    <string name="no_sim_error_message">SIM card no available</string>
+    <string name="widget_text">Cargando\u2026</string>
+    <string name="share_number">Share your number</string>
+</resources>
